@@ -4,7 +4,7 @@ pegando dados apartir do api pokemon
 
 
 ![Pagina, de cadastro](https://ibb.co/T4rhDpv)
-![Pagina, de cadastro](https://ibb.co/0yxrBqr)
+![Pagina, de cadastro](https://i.ibb.co/pjSdW2d/asdee2r.png)
 
 
 ### Stack
