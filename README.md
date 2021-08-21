@@ -3,7 +3,7 @@ projeto feito usando Async e Await
 pegando dados apartir do api pokemon 
 
 
-![Pagina, de cadastro](https://ibb.co/T4rhDpv)
+![Pagina, de cadastro](https://i.ibb.co/bs7djqW/asdee1r.png)
 ![Pagina, de cadastro](https://i.ibb.co/pjSdW2d/asdee2r.png)
 
 
