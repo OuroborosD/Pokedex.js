@@ -21,10 +21,15 @@ function cor_card(tipo){
     "grass":  "#00FF7F",
     "fire"  : "#FF6347",
     "ground": "#FFDEAD",
-    "water":"rgb(224,255,255, 0.4)",
-    "electric":"rgb(255,255,0,0.4)",
+    "water":"rgb(0,191,255)",
+    "electric":"rgb(255,255,0,0.3)",
     "rock": "rgb(188,143,143,0.4)",
-    "dragon":"rgb(216,191,216,0.4)"}
+    "dragon":"rgb(216,191,216,0.4)",
+    "bug":"rgb(34,139,34,0.2)",
+    "psychic":"rgb(238,130,238,0.8)",
+    "poison":"rgb(255,0,255,0.2)",
+    "fighting": "rgb(220,20,60,0.8)",
+    "ghost": "rgb(148,0,211,0.2)"}
     let cor = ''
     if(cores_card[tipo] === undefined){// jeito mais robusto de checar undefined
         cor = 'rgb(220,220,220, 0.6)'
@@ -34,7 +39,7 @@ function cor_card(tipo){
     return cor
 }
 
-function construir_card(data,cor){
+function construir_card(data,cor,index){
     let card = document.getElementsByClassName('pokedex')[0]
     card.innerHTML += `  <div class="card">
                             <img src="${data[0]}" alt="pokemon">
@@ -42,7 +47,8 @@ function construir_card(data,cor){
                             <p>${data[3]}</p>
                             <p>${data[2]}</p>
                         </div>`
-    card.style.background
+    let card_estrutura =  document.getElementsByClassName("card")[index-1]
+    card_estrutura.style.backgroundColor = `${cor}`
 
 }
 
@@ -53,7 +59,7 @@ async function  pk(){
         console.log(data)
         let cor =  cor_card(data[3])
         //console.log(cor)  
-        construir_card(data,cor)  
+        construir_card(data,cor,i)  
     }
    
 }
