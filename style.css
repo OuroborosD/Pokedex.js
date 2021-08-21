@@ -1,0 +1,37 @@
+html{
+    
+    background: linear-gradient(85deg,#F0FFF0, #B0E0E6) no-repeat;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.pokedex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.card{
+    width: 175px;
+    height: 250px;
+    padding: 0px 4px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 10%;
+    box-shadow: 1px 2px 2px grey;
+}
+
+img{
+    height: 120px;
+    background: rgba(128, 128, 128, 0.075);
+    border-radius: 100%;
+}
+
+span{
+    background: rgba(26, 25, 25, 0.082);
+    padding: 0px 6px;
+    border-radius: 100%;
+}
+
