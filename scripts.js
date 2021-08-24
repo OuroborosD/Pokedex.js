@@ -24,7 +24,7 @@ function cor_card(tipo){
     "water":"rgb(0,191,255)",
     "electric":"rgb(255,255,0,0.3)",
     "rock": "rgb(188,143,143,0.4)",
-    "dragon":"rgb(216,191,216,0.4)",
+    "dragon":"rgb(216,191,216,0.8)",
     "bug":"rgb(34,139,34,0.2)",
     "psychic":"rgb(238,130,238,0.8)",
     "poison":"rgb(255,0,255,0.2)",
