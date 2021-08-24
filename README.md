@@ -14,9 +14,9 @@ HTML, CSS, JS
 - [x] pegar dados da api
 - [x] tratar os dados da api, tranformando e variaveis
 - [X] gerar a estrutura dos cards pelo JS
-- [X] gerar a cor do card automaticamente verificando o tipo de pokemon
+- [X] apartir do tipo de pokemon gerar uma cor do card diferente.
 - [X] deixar responsivo! 
-- [X] pokedex de todos os pokemos da primeira geração
+- [X] pokedex com todos os pokemos da primeira geração
 
 
 
